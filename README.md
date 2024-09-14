@@ -57,7 +57,7 @@ Hope you'll find it useful.
 |   enum4linux   |    smb enum     |   https://github.com/CiscoCXSecurity/enum4linux            |
 |   snmp-check   |    snmp enum    | https://www.nothink.org/codes/snmpcheck/index.php              |
 |    snmpwalk    |    snmp enum    |https://linux.die.net/man/1/snmpwalk               |
-|      odat      | oracle db recon |   https://github.com/quentinhardy/odat            |
+|(removed for ARM64)     odat      | oracle db recon |   https://github.com/quentinhardy/odat            |
 |   ldapsearch   |    ldap enum    |   https://linux.die.net/man/1/ldapsearch            |
 |    dnsrecon    |    dns enum     | https://github.com/darkoperator/dnsrecon              |
 | smtp-user-enum |    smtp enum    | https://github.com/pentestmonkey/smtp-user-enum              |
