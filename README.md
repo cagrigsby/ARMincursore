@@ -1,13 +1,16 @@
-# Incursore
+# Fork
+Please note that this was a very useful script on its own made by @wirzka. I am merely forking it because it included odat which does not run properly on ARM devices, and I've removed that. I'll update this README with any other important changes. 
+
+# ARMincursore
 ```bash
-     ____                                        
-    /  _/___ _______  ________________  ________
-   / // __ \/ ___/ / / / ___/ ___/ __ \/ ___/ _ \
- _/ // / / / /__/ /_/ / /  (__  ) /_/ / /  /  __/
-/___/_/ /_/\___/\__,_/_/  /____/\____/_/   \___/
-                     @wirzka     
+    ___    ____  __  _______                                         
+   /   |  / __ \/  |/  /  _/___  _______  ________________  ________ 
+  / /| | / /_/ / /|_/ // // __ \/ ___/ / / / ___/ ___/ __ \/ ___/ _ \
+ / ___ |/ _, _/ /  / // // / / / /__/ /_/ / /  (__  ) /_/ / /  /  __/
+/_/  |_/_/ |_/_/  /_/___/_/ /_/\___/\__,_/_/  /____/\____/_/   \___/ 
+                     @wirzka     (and pop lol)                        
 ```
-*Incursore* will raid the target for you.
+*ARMincursore* will raid the target for you.
 
 It came out from *nmapAutomator* to be more suited for the OSCP environment.
 
@@ -18,18 +21,18 @@ It came out from *nmapAutomator* to be more suited for the OSCP environment.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Future features](#future-features)
-- [Incursore in the wild](#incursore-in-the-wild)
+- [ARMincursore in the wild](#ARMincursore-in-the-wild)
 - [Disclaimer](#disclaimer)
 
 ## TL;DR
-While *incursore* has born from *nmapAutomator*, it is **not** *nmapAutomator*. The script from @21y4d is great, but sometimes it's too slow (due to nikto). By removing it, the time needed to complete a scan has been drastically reduced.
-So, from just removing nikto I found myself tweaking it a lot, that's why I decided to rename it to incursore and to publish it under a new repo and name.
+While *ARMincursore* has born from *nmapAutomator*, it is **not** *nmapAutomator*. The script from @21y4d is great, but sometimes it's too slow (due to nikto). By removing it, the time needed to complete a scan has been drastically reduced.
+So, from just removing nikto I found myself tweaking it a lot, that's why I decided to rename it to ARMincursore and to publish it under a new repo and name.
 Hope you'll find it useful.
 
 *Bear in mind that I'm still working on it.*
 
 ## Features and changes
-*Incursore* has the following features and changes:
+*ARMincursore* has the following features and changes:
 - It immmediately runs a full TCP port scans
 - It asks to the user to run with sudo in order to run a SYN Scan instead of a Connect Scan
 - It automatically tries to bruteforce FTP services
@@ -42,7 +45,7 @@ Hope you'll find it useful.
 - It highlights target OS type
 - It highlights nmap scan type
 ## Requirements
-*Incursore*'s requirements are the following:
+*ARMincursore*'s requirements are the following:
 |      tool      |      scope      | official link |
 |:--------------:|:---------------:|:-------------:|
 |      nmap      |   recon/enum    | https://nmap.org/              |
@@ -72,12 +75,12 @@ $ which nmap ffuf sslscan joomscan wpscan droopescan cutycapt smbmap enum4linux 
 
 ## Installation
 ```bash
-git clone https://github.com/wirzka/incursore.git
-sudo ln -s $(pwd)/incursore/incursore.sh /usr/local/bin/
+git clone https://github.com/wirzka/ARMincursore.git
+sudo ln -s $(pwd)/ARMincursore/ARMincursore.sh /usr/local/bin/
 ```
 ## Usage
 ```bash
-$ incursore.sh -h
+$ ARMincursore.sh -h
      ____                                        
     /  _/___ _______  ________________  ________
    / // __ \/ ___/ / / / ___/ ___/ __ \/ ___/ _ \
@@ -85,7 +88,7 @@ $ incursore.sh -h
 /___/_/ /_/\___/\__,_/_/  /____/\____/_/   \___/
                      @wirzka                      
 
-Usage: incursore.sh -H/--host <TARGET-IP> -t/--type <TYPE>
+Usage: ARMincursore.sh -H/--host <TARGET-IP> -t/--type <TYPE>
 Optional: [-d/--dns <DNS SERVER>] [-o/--output <OUTPUT DIRECTORY>]
 
 Scan Types:
@@ -101,13 +104,13 @@ inspired by @21y4d gently modified by @wirzka
 ## Future Features
 - Generally increasing auto reconnaissance based on discovered services.
 
-## Incursore in the wild
-Thanks to everyone for spending some times trying, using, and enhancing Incursore <3:
+## ARMincursore in the wild
+Thanks to everyone for spending some times trying, using, and enhancing ARMincursore <3:
 #### Xerosec on his YouTube video
 [![xerosec on his YouTube video](https://img.youtube.com/vi/4CKey4l490c/0.jpg)](https://www.youtube.com/watch?v=4CKey4l490c)
 
 ## Disclaimer
-I am not responsible for any damages (tangible or intangible) resulting from the use of *incursore*.
+I am not responsible for any damages (tangible or intangible) resulting from the use of *ARMincursore*.
 You must have the permissions to use it.
 
 Stay safe.
