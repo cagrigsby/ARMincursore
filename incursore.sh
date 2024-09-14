@@ -607,8 +607,8 @@ reconRecommend() {
                 printf "${NC}\n"
                 printf "${YELLOW}[+] Oracle Recon:\n"
                 printf "${NC}\n"
-                echo "odat sidguesser -s \"${HOST}\" -p 1521"
-                echo "odat passwordguesser -s \"${HOST}\" -p 1521 -d XE --accounts-file accounts/accounts-multiple.txt"
+        #       echo "odat sidguesser -s \"${HOST}\" -p 1521"
+        #       echo "odat passwordguesser -s \"${HOST}\" -p 1521 -d XE --accounts-file accounts/accounts-multiple.txt"
 
         fi
 
