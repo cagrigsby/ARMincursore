@@ -75,18 +75,18 @@ $ which nmap ffuf sslscan joomscan wpscan droopescan cutycapt smbmap enum4linux 
 
 ## Installation
 ```bash
-git clone https://github.com/wirzka/ARMincursore.git
+git clone https://github.com/cagrigsby/ARMincursore.git
 sudo ln -s $(pwd)/ARMincursore/ARMincursore.sh /usr/local/bin/
 ```
 ## Usage
 ```bash
 $ ARMincursore.sh -h
-     ____                                        
-    /  _/___ _______  ________________  ________
-   / // __ \/ ___/ / / / ___/ ___/ __ \/ ___/ _ \
- _/ // / / / /__/ /_/ / /  (__  ) /_/ / /  /  __/
-/___/_/ /_/\___/\__,_/_/  /____/\____/_/   \___/
-                     @wirzka                      
+    ___    ____  __  _______                                         
+   /   |  / __ \/  |/  /  _/___  _______  ________________  ________ 
+  / /| | / /_/ / /|_/ // // __ \/ ___/ / / / ___/ ___/ __ \/ ___/ _ \
+ / ___ |/ _, _/ /  / // // / / / /__/ /_/ / /  (__  ) /_/ / /  /  __/
+/_/  |_/_/ |_/_/  /_/___/_/ /_/\___/\__,_/_/  /____/\____/_/   \___/ 
+                     @wirzka     (and pop lol)                        
 
 Usage: ARMincursore.sh -H/--host <TARGET-IP> -t/--type <TYPE>
 Optional: [-d/--dns <DNS SERVER>] [-o/--output <OUTPUT DIRECTORY>]
@@ -104,8 +104,8 @@ inspired by @21y4d gently modified by @wirzka
 ## Future Features
 - Generally increasing auto reconnaissance based on discovered services.
 
-## ARMincursore in the wild
-Thanks to everyone for spending some times trying, using, and enhancing ARMincursore <3:
+## incursore in the wild
+Thanks to everyone for spending some times trying, using, and enhancing incursore <3:
 #### Xerosec on his YouTube video
 [![xerosec on his YouTube video](https://img.youtube.com/vi/4CKey4l490c/0.jpg)](https://www.youtube.com/watch?v=4CKey4l490c)
 
