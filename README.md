@@ -1,6 +1,9 @@
 # Fork
 Please note that this was a very useful script on its own made by @wirzka. I am merely forking it because it included odat which does not run properly on ARM devices, and I've removed that. I'll update this README with any other important changes. 
 
+## TODO
+Add additional commands in the event that creds have been found. In some cases the script may be run on internal network only after creds have been found on a jump host, so it makes sense to run with any possible creds for SMB/LDAP/etc commands. 
+
 # ARMincursore
 ```bash
     ___    ____  __  _______                                         
